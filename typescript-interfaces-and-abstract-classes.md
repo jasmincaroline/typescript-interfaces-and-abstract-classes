@@ -1,6 +1,6 @@
 # TypeScript Exercises: Interfaces & Abstract Classes
 
-### Exercise 01 — Interface Speaker
+Exercise 01 — Interface Speaker
 ```typescript
 interface Speaker {
   speak(): void;
@@ -40,8 +40,8 @@ const t = new Teacher();
 s.greet();
 t.greet();
 ```
-Exercise 03 — Interface Animal + função
-
+Exercise 03 — Interface Animal + function
+```typescript
 interface Animal {
   makeSound(): void;
 }
@@ -67,10 +67,10 @@ const cat = new Cat();
 
 playSound(dog);
 playSound(cat);
-
+```
 Exercise 04 — Abstract class
 
-
+```typescript
 abstract class Vehicle {
   move() {
     console.log("The vehicle is moving");
@@ -88,9 +88,9 @@ class Car extends Vehicle {
 const car = new Car();
 car.move();
 car.makeNoise();
-
+```
 Exercise 05 — Abstract class 
-
+```typescript
 abstract class Employee {
   name: string;
 
@@ -115,3 +115,4 @@ const dev = new Developer("Alex");
 
 dev.clockIn();
 dev.work();
+```
